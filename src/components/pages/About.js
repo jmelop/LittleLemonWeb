@@ -1,9 +1,10 @@
 import React from "react";
+import UnderConstruction from "./UnderConstruction/UnderConstruction";
 
 export default function About() {
   return (
     <>
-      <p>About</p>
+      <UnderConstruction />
     </>
   );
 }
