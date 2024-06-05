@@ -1,37 +1,25 @@
 .menu {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  display: flex;
-}
-
-.url-logo {
-    margin-left: auto;
+  margin: auto;
 }
 
 .logo {
-    width: 50%;
-    float: right;
+    width: 225px;
     padding: 14px;
-    margin-right: 60px;
-    float: left;
 }
 
 ul {
-    list-style-type: none;
     align-self: center;
-    margin-right: auto;
+    grid-column: 3;
+    display: flex;
+    list-style-type: none;
 }
 
 li {
   float: left;
-  margin: 0 10px;
 }
 
 li a {
-  display: block;
-  color: white;
+  color: #495e57;
   text-align: center;
   text-decoration: none;
   padding: 10px;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo.png";
 import "./Navbar.css";
 
 const navigation = [
@@ -14,8 +14,8 @@ const navigation = [
 export default function Navbar() {
   return (
     <header>
-      <nav className="menu">
-        <Link className="url-logo">
+      <nav className="menu container">
+        <Link>
           <img className="logo" src={Logo} alt="LittleLemon Logo" />
         </Link>
         <ul>
