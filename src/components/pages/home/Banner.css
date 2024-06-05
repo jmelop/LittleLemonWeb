@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #495e57;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 950px;
+  border-radius: 8px;
+}
+
+.image {
+  margin-bottom: -65px;
+  width: 90%;
+  height: 24rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.block-left {
+  padding: 20px;
+  text-align: left;
+  min-width: 200px;
+}
+
+.block-left h1 {
+  color: #f4ce14;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.block-left h3 {
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.block-left p {
+  color: #ffffff;
+}
+
+.reservation {
+  margin-top: 15px;
+  background-color: #f4ce14;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 0px;
+  color: #495e57;
+  font-weight: bold;
+}

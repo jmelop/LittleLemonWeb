@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className="menu">
-        <Link>
+        <Link className="url-logo">
           <img className="logo" src={Logo} alt="LittleLemon Logo" />
         </Link>
         <ul>

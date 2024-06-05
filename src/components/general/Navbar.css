@@ -6,26 +6,36 @@
   display: flex;
 }
 
+.url-logo {
+    margin-left: auto;
+}
+
 .logo {
     width: 50%;
-    text-align: center;
     float: right;
+    padding: 14px;
+    margin-right: 60px;
+    float: left;
 }
 
 ul {
     list-style-type: none;
+    align-self: center;
+    margin-right: auto;
 }
 
 li {
   float: left;
+  margin: 0 10px;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 10px;
+  height: 100%;
 }
 
 li a:hover:not(.active) {
