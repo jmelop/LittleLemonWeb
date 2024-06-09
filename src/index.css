@@ -14,3 +14,9 @@ body {
   max-width: 950px;
   border-radius: 8px;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

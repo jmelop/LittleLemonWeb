@@ -1,8 +1,6 @@
-.wrapper {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+.block {
   background-color: #495e57;
+  margin-bottom: 120px;
 }
 
 .image {
