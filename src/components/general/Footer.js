@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import Logo from "../assets/logo-footer.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -37,10 +44,39 @@ export default function Footer() {
         </div>
         <div>
           <h4>CONNECT WITH US</h4>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+          <ul className="social-icons">
+            <li>
+              <a
+                href={`https://www.facebook.com`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faFacebook} size="lg" />{" "}
+              </a>
+            </li>
+            <li>
+              <a
+                href={`https://www.instagram.com`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} size="lg" />{" "}
+              </a>
+            </li>
+            <li>
+              <a
+                href={`https://www.whatsapp.com`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faWhatsapp} size="lg" />{" "}
+              </a>
+            </li>
+            <li>
+              <a href={`https://www.x.com`} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faXTwitter} size="lg" />{" "}
+              </a>
+            </li>
           </ul>
         </div>
       </div>

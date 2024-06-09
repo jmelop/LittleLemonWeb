@@ -10,7 +10,7 @@
 }
 
 .bottom-image {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .left-text {
@@ -26,7 +26,8 @@
 }
 
 .left-text h3 {
-  margin-top: 10px;
+  margin-top: 2px;
+  margin-bottom: 25px;
   color: #495e57;
   font-size: 25px;
 }

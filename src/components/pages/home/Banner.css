@@ -1,4 +1,4 @@
-.block {
+.banner-block {
   background-color: #495e57;
   margin-bottom: 120px;
 }
@@ -20,17 +20,19 @@
 .block-left h1 {
   color: #f4ce14;
   font-size: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .block-left h3 {
   margin-top: 10px;
+  margin-bottom: 30px;
   color: #ffffff;
   font-size: 25px;
 }
 
 .block-left p {
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .reservation {

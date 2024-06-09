@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  max-width: 1050px;
+  max-width: 900px;
   border-radius: 8px;
   margin: auto;
   color: white;
@@ -14,19 +14,28 @@
 }
 
 .footer-container img {
-    width: 35%;
+  width: 45%;
 }
 
 .footer-container li {
-    list-style-type: none;
-    margin-bottom: 6px;
+  list-style-type: none;
+  margin-bottom: 6px;
 }
 
 .footer-container li a {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .footer-container ul {
-    margin-top: 15px;
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.social-icons li {
+  text-align: left;
 }
