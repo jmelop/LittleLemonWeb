@@ -1,0 +1,37 @@
+.opinion-block {
+    margin-bottom: 100px;
+}
+
+.image {
+  margin-bottom: -65px;
+  width: 90%;
+  height: 50%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.bottom-image {
+    margin-top: 80px;
+}
+
+.left-text {
+  text-align: left;
+  min-width: 200px;
+}
+
+.left-text h1 {
+  color: #f4ce14;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.left-text h3 {
+  margin-top: 10px;
+  color: #495e57;
+  font-size: 25px;
+}
+
+.left-text p {
+  color: rgb(114, 114, 114);
+}
