@@ -3,10 +3,14 @@ import "./MenuBanner.css";
 
 export default function MenuBanner() {
   return (
-    <section className="wrapper">
-      <div className="container">
-        <h1>This week specials!</h1>
-        <button>Online Menu</button>
+    <section className="">
+      <div className="menu-banner-container">
+        <div className="left-content">
+          <h1>This week specials!</h1>
+        </div>
+        <div className="right-content">
+          <button>Online Menu</button>
+        </div>
       </div>
     </section>
   );

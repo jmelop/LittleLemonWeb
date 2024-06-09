@@ -1,0 +1,28 @@
+.menu-banner-container {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Una columna para el h1 y una columna para el botón */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    max-width: 950px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.left-content {
+  text-align: left;
+  color: #495e57;
+}
+
+.right-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-content button {
+    background-color: #f4ce14;
+    border-radius: 2rem;
+    border: 0px;
+    width: 120px;
+    height: 50px;
+    color: #495e57;
+    font-weight: bold;
+}
