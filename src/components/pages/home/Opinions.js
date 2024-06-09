@@ -29,8 +29,8 @@ export default function Opinions() {
           </p>
         </div>
         <div>
-          <img className="image" alt="Restaurant food" src={ChefImage} />
-          <img className="image bottom-image" alt="Restaurant food" src={SecondChefImage} />
+          <img className="image" alt="Restaurant food chefs" src={ChefImage} />
+          <img className="image bottom-image" alt="Restaurant food chefs in the kitchen" src={SecondChefImage} />
         </div>
       </div>
     </section>
