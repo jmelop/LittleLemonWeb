@@ -1,0 +1,32 @@
+.footer-block {
+  background-color: #495e57;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1050px;
+  border-radius: 8px;
+  margin: auto;
+  color: white;
+  padding: 50px 0px;
+}
+
+.footer-container img {
+    width: 35%;
+}
+
+.footer-container li {
+    list-style-type: none;
+    margin-bottom: 6px;
+}
+
+.footer-container li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-container ul {
+    margin-top: 15px;
+}

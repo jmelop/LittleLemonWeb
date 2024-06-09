@@ -7,6 +7,7 @@ import Reservation from "../pages/Reservation/Reservation";
 import OrderOnline from "../pages/OrderOnline";
 import Login from "../pages/Login";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Router() {
   const Layout = () => {
@@ -14,6 +15,7 @@ export default function Router() {
       <>
         <Navbar />
         <Home />
+        <Footer />
       </>
     );
   };

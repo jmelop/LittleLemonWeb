@@ -1,9 +1,9 @@
 import React from "react";
-import "./Opinions.css";
+import "./OurTeam.css";
 import ChefImage from "../../assets/chef1.jpg";
 import SecondChefImage from "../../assets/chef2.jpg";
 
-export default function Opinions() {
+export default function OurTeam() {
   return (
     <section className="wrapper opinion-block">
       <div className="container">
@@ -29,8 +29,8 @@ export default function Opinions() {
           </p>
         </div>
         <div>
-          <img className="image" alt="Restaurant food chefs" src={ChefImage} />
-          <img className="image bottom-image" alt="Restaurant food chefs in the kitchen" src={SecondChefImage} />
+          <img className="out-team-image" alt="Restaurant food chefs" src={ChefImage} />
+          <img className="out-team-image bottom-image" alt="Restaurant food chefs in the kitchen" src={SecondChefImage} />
         </div>
       </div>
     </section>

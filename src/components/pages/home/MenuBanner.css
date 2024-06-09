@@ -1,7 +1,7 @@
 .menu-banner-container {
   display: grid;
-  grid-template-columns: 1fr auto; /* Una columna para el h1 y una columna para el botón */
-  align-items: center; /* Alinea verticalmente los elementos en el centro */
+  grid-template-columns: 1fr auto;
+  align-items: center;
   max-width: 950px;
   border-radius: 8px;
   margin: auto;

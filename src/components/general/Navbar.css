@@ -7,18 +7,18 @@
     padding: 14px;
 }
 
-ul {
+.menu ul {
     align-self: center;
     grid-column: 3;
     display: flex;
     list-style-type: none;
 }
 
-li {
+.menu li {
   float: left;
 }
 
-li a {
+.menu li a {
   color: #495e57;
   text-align: center;
   text-decoration: none;
@@ -26,7 +26,7 @@ li a {
   height: 100%;
 }
 
-li a:hover:not(.active) {
+.menu li a:hover:not(.active) {
   background-color: #f4ce14;
 }
 
