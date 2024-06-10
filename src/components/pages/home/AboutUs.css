@@ -20,3 +20,13 @@
   color: whitesmoke;
   font-size: 40px;
 }
+
+.about-container {
+  display: grid;
+  margin: 30px auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+  border-radius: 8px;
+  max-width: 1000px;
+}

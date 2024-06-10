@@ -28,8 +28,10 @@
 
 .menu li a:hover:not(.active) {
   background-color: #f4ce14;
+  border-radius: 10px;
 }
 
 .active {
   background-color: #f4ce14;
+  border-radius: 10px;
 }
