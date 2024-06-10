@@ -8,7 +8,7 @@ export default function AboutUsCard({ client }) {
     let content = [];
     for (let i = 1; i <= stars; i++) {
       content.push(
-        <li>
+        <li key={i}>
           {" "}
           <FontAwesomeIcon icon={faStar} size="xs" />
         </li>

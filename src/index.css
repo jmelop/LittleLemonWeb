@@ -14,7 +14,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+label {
   line-height: 1;
   font-family: "Markazi Text";
   font-weight: normal;

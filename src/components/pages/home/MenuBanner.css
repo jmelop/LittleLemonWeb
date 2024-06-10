@@ -20,10 +20,10 @@
 
 .right-content {
   display: flex;
-  justify-content: flex-end;
 }
 
-.right-content button {
+.right-button {
+  display: flex;
   background-color: #f4ce14;
   border-radius: 2rem;
   border: 0px;
@@ -31,6 +31,9 @@
   height: 50px;
   color: #495e57;
   font-weight: bold;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center; 
 }
 
 .card-container {

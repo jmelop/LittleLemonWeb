@@ -50,7 +50,9 @@ export default function AboutUs() {
         </div>
         <div className="about-container">
           {clients.map((client, index) => (
-            <AboutUsCard key={index} client={client} />
+            <div key={index}>
+              <AboutUsCard client={client} />
+            </div>
           ))}
         </div>
       </div>

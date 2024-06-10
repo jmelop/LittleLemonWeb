@@ -32,15 +32,16 @@
 
 .block-left p {
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .reservation {
-  margin-top: 15px;
+  margin-top: 20px;
   background-color: #f4ce14;
-  padding: 15px 20px;
+  padding: 13px 20px;
   border-radius: 25px;
   border: 0px;
   color: #495e57;
   font-weight: bold;
+  text-decoration: none;
 }

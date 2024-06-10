@@ -4,6 +4,7 @@ import MenuCard from "../Cards/MenuCard";
 import GreekSaladImage from "../../assets/greek salad.jpg";
 import LemonDessertImage from "../../assets/lemon dessert.jpg";
 import BurgerImage from "../../assets/burger.jpg";
+import { Link } from "react-router-dom";
 
 const menu = [
   {
@@ -40,7 +41,7 @@ export default function MenuBanner() {
           <h2>This week specials!</h2>
         </div>
         <div className="right-content">
-          <button>Online Menu</button>
+          <Link className="right-button" to={"/order-online"}>Online Menu</Link>
         </div>
       </div>
       <div className="card-container">

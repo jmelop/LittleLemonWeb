@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import BannerImage from "../../assets/restaurant-food.jpg";
+import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
@@ -13,7 +14,9 @@ export default function Banner() {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <button className="reservation">Reserve a table</button>
+          <Link className="reservation" to={"/reservation"}>
+            Reserve a table
+          </Link>
         </div>
         <img className="image" alt="Restaurant food" src={BannerImage} />
       </div>
