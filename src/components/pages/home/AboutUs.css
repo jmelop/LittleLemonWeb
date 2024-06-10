@@ -1,4 +1,22 @@
 .block {
-    background-color: #495e57;
-    margin-bottom: 90px;
-  }
+  background-color: #495e57;
+  margin-bottom: 90px;
+}
+
+.about-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  max-width: 950px;
+  margin: auto;
+}
+
+.title-container h2 {
+  color: whitesmoke;
+  font-size: 40px;
+}

@@ -23,6 +23,15 @@
   justify-content: space-between;
 }
 
+.card-header h3 {
+  color: #495e57;
+}
+
+.card-header p {
+  font-weight: bold;
+  color: #EE9972;
+}
+
 .card-header,
 .card-body {
   padding-left: 20px;
@@ -35,11 +44,12 @@
   justify-content: space-between;
   height: 100%;
   flex-grow: 1;
+  color: #495e57;
 }
 
 .order {
   font-weight: bold;
   text-decoration: none;
-  color: #495e57;
   margin-top: auto;
+  color: #495e57;
 }

@@ -11,7 +11,7 @@ export default function MenuCard({ meal }) {
         <img src={meal.url} alt={meal.description} />
       </div>
       <div className="card-header">
-        <h1>{meal.title}</h1>
+        <h3>{meal.title}</h3>
         <p>{meal.price}</p>
       </div>
       <div className="card-body">

@@ -12,6 +12,12 @@
   color: #495e57;
 }
 
+.left-content h2 {
+  text-align: left;
+  color: #495e57;
+  font-size: 40px;
+}
+
 .right-content {
   display: flex;
   justify-content: flex-end;

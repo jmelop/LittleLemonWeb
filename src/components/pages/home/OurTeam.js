@@ -9,7 +9,7 @@ export default function OurTeam() {
       <div className="container">
         <div className="left-text">
           <h1>Little Lemon</h1>
-          <h3>Chicago</h3>
+          <h2>Chicago</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
             ultrices erat non dapibus dictum. Sed vel faucibus nibh, eget

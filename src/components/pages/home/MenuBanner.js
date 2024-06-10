@@ -37,7 +37,7 @@ export default function MenuBanner() {
     <section className="">
       <div className="menu-banner-container">
         <div className="left-content">
-          <h1>This week specials!</h1>
+          <h2>This week specials!</h2>
         </div>
         <div className="right-content">
           <button>Online Menu</button>

@@ -19,15 +19,15 @@
 
 .block-left h1 {
   color: #f4ce14;
-  font-size: 30px;
+  font-size: 60px;
   margin-bottom: 10px;
 }
 
-.block-left h3 {
+.block-left h2 {
   margin-top: 10px;
   margin-bottom: 30px;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .block-left p {

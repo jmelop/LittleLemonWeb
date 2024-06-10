@@ -4,7 +4,9 @@ import "./AboutUs.css";
 export default function AboutUs() {
   return (
     <section className="block">
-        <h1>Hello</h1>
+      <div className="about-section title-container">
+        <h2>What people say about us!</h2>
+      </div>
     </section>
   );
 }
