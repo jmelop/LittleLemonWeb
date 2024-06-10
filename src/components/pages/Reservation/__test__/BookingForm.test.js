@@ -1,10 +1,10 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import Reservation from "../Reservation";
+import BookingForm from "../BookingForm";
 
 describe("Reservation component", () => {
   it("renders with correct content", () => {
-    render(<Reservation />);
+    render(<BookingForm />);
 
     const emailInput = screen.getByLabelText("Email:");
     const phoneInput = screen.getByLabelText("Phone:");
@@ -22,7 +22,7 @@ describe("Reservation component", () => {
   });
 
   it("allows users to fill out the form and submit", () => {
-    render(<Reservation />);
+    render(<BookingForm />);
 
     const emailInput = screen.getByLabelText("Email:");
     const phoneInput = screen.getByLabelText("Phone:");

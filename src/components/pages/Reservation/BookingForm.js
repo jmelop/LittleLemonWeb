@@ -1,8 +1,8 @@
 import React from "react";
-import "./Reservation.css";
+import "./BookingForm.css";
 import Confirmation from "../Confirmation/Confirmation";
 
-export default function Reservation() {
+export default function BookingForm() {
   const minimumDate = new Date().toISOString().split("T")[0];
   const today = new Date();
   today.setDate(today.getDate() + 10);

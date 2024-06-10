@@ -3,7 +3,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import About from "../pages/About";
 import Menu from "../pages/Menu";
-import Reservation from "../pages/Reservation/Reservation";
+import BookingForm from "../pages/Reservation/BookingForm";
 import OrderOnline from "../pages/OrderOnline";
 import Login from "../pages/Login";
 import Navbar from "./Navbar";
@@ -39,7 +39,7 @@ export default function Router() {
         },
         {
           path: "/reservation",
-          element: <Reservation />,
+          element: <BookingForm />,
         },
         {
           path: "/order-online",
