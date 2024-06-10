@@ -26,3 +26,13 @@
   color: #495e57;
   font-weight: bold;
 }
+
+.card-container {
+  display: grid;
+  margin: 30px auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+  border-radius: 8px;
+  max-width: 950px;
+}
