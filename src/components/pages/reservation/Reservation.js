@@ -12,12 +12,11 @@ export default function Reservation() {
     email: "",
     phone: "",
     date: minimumDate,
-    time: "16:00",
+    time: "16:30",
     guests: 1,
   });
 
   const availableTimes = [
-    "16:30",
     "17:00",
     "17:30",
     "18:00",
