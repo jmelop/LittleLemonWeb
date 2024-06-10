@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import About from "../pages/About";
 import Menu from "../pages/Menu";
@@ -14,7 +14,7 @@ export default function Router() {
     return (
       <>
         <Navbar />
-        <Home />
+        <Outlet />
         <Footer />
       </>
     );
