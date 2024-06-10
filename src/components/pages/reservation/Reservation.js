@@ -58,6 +58,7 @@ export default function Reservation() {
                 onChange={handleChange}
                 minLength="3"
                 maxLength="15"
+                placeholder="johndoe@example.com"
                 required
               />
             </div>
