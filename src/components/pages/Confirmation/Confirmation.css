@@ -1,0 +1,12 @@
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    min-height: 565px;
+    color: #495e57;
+  }
+
+.confirmation-container h2 {
+    margin-left: 20px;
+  }
