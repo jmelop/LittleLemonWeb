@@ -69,3 +69,17 @@ form input,
 select {
   color: #495e57;
 }
+
+@media (max-width: 768px) {
+  .footer-container img {
+    width: 25%;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+  }
+}

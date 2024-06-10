@@ -35,3 +35,14 @@
 .left-text p {
   color: rgb(114, 114, 114);
 }
+
+/* … */
+
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+}

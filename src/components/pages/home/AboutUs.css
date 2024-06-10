@@ -30,3 +30,16 @@
   border-radius: 8px;
   max-width: 1000px;
 }
+
+/* … */
+
+@media (max-width: 949px) {
+  .title-container {
+    padding: 20px;
+  }
+
+  .about-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+}

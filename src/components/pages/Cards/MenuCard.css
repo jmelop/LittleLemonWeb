@@ -53,3 +53,9 @@
   margin-top: auto;
   color: #495e57;
 }
+
+@media (max-width: 768px) {
+  .card {
+    grid-row: auto;
+  }
+}

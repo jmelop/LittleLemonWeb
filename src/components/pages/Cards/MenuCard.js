@@ -16,7 +16,7 @@ export default function MenuCard({ meal }) {
       </div>
       <div className="card-body">
         <p>{meal.resume}</p>
-        <Link className="order">
+        <Link className="order" to={"/order-online"}>
           Order a delivery <FontAwesomeIcon icon={faMotorcycle} />
         </Link>
       </div>

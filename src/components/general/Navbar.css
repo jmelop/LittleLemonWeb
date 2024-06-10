@@ -7,18 +7,18 @@
     padding: 14px;
 }
 
-.menu ul {
+.menu-items {
     align-self: center;
     grid-column: 3;
     display: flex;
     list-style-type: none;
 }
 
-.menu li {
+.menu-items li {
   float: left;
 }
 
-.menu li a {
+.menu-items li a {
   color: #495e57;
   text-align: center;
   text-decoration: none;
@@ -26,7 +26,7 @@
   height: 100%;
 }
 
-.menu li a:hover:not(.active) {
+.menu-items li a:hover:not(.active) {
   background-color: #f4ce14;
   border-radius: 10px;
 }
@@ -34,4 +34,38 @@
 .active {
   background-color: #f4ce14;
   border-radius: 10px;
+}
+
+.menu-items.lateral-menu {
+  left: 0;
+}
+
+/* … */
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    grid-template-columns: auto auto;
+  }
+
+  .side-menu {
+    background: none;
+    border: none;
+    width: 60px;
+    margin-left: 40px;
+  }
+
+  .menu-items {
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    left: -50%;
+    background-color: #FFFFFF;
+  }
+
+  .menu-items li {
+    flex-direction: column;
+    padding: 20px;
+  }
 }

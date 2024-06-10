@@ -45,3 +45,21 @@
   border-radius: 8px;
   max-width: 950px;
 }
+
+/* … */
+
+@media (max-width: 768px) {
+  .card-container {
+    display: grid;
+    margin: 30px auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .menu-banner-container {
+    padding: 20px;
+  }
+}

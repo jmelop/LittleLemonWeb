@@ -45,3 +45,16 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+/* … */
+
+@media (max-width: 768px) {
+  .banner-block .container {
+    grid-template-columns: 1fr;
+  }
+
+  .image {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
